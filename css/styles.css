@@ -1,3 +1,29 @@
+body {
+  background-color: #3d3d3d;
+}
+
 h1 {
+  margin-top: 5%;
   text-align: center;
+  color: whitesmoke;
+}
+
+h5 {
+  color: whitesmoke;
+}
+
+h4 {
+  margin: 30px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  border: 5px solid gray;
+  padding: 30px;
+  width: 370px;
+  height: 250px;
+  background-color: #bfbfbf;
+}
+
+.row {
+  margin: 20px auto;
 }
