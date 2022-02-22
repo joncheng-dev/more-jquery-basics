@@ -34,11 +34,12 @@ p {
   display: table-cell;
   vertical-align: middle;
   border: 5px solid gray;
-  padding: 30px;
+  padding: 10px;
   width: 370px;
   height: 250px;
   background-color: #7595a8;
   font-size: x-large;
+  font-weight: bold;
 }
 
 .row {
