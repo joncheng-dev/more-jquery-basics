@@ -1,5 +1,11 @@
 $(document).ready(function () {
-  $("#card1").click(function () {
-    $("#card1").toggle();
+  $(".vocab").click(function () {
+    $(this).hide();
+    $(this).siblings(".define").show();
+  });
+
+  $(".define").click(function () {
+    $(this).hide();
+    $(this).siblings(".vocab").show();
   });
 });
